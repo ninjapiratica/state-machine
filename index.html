@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+    <input type="text" id="selection" placeholder="Action" onkeyup="event.key === 'Enter' && submit()" />
+    <button type="button" onclick="submit()">Submit</button>
+
+    <div>
+        Inventory:
+        <span id="inventory"></span>
+    </div>
+
+    <div>
+        Room:
+        <span id="room"></span>
+    </div>
+
+    <div>
+        Actions:
+        <span id="actions"></span>
+    </div>
+</body>
+
+</html>

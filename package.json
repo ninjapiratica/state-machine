@@ -1,0 +1,12 @@
+{
+  "name": "state-machine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vite"
+  },
+  "dependencies": {
+    "vite": "5.0.12",
+    "xstate": "5.5.1"
+  }
+}
